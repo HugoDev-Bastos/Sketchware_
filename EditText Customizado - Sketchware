@@ -1,0 +1,28 @@
+android.graphics.drawable.GradientDrawable gd = new android.graphics.drawable.GradientDrawable();
+
+gd.setColor(Color.parseColor(_color1));
+
+gd.setCornerRadius((int) _radius);
+
+gd.setStroke((int) _borderstroke, 
+Color.parseColor(_strokecolor));
+
+_view.setElevation((float)_elevation);
+_view.setBackground(gd);
+
+
+//BackgroundColor
+//_color1
+
+//Radius
+//_radius
+
+//Elevation
+//_elevation
+
+//Stronke
+//_strokecolor
+//_borderstroke
+
+//View
+//_view
