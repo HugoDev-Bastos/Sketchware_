@@ -1,0 +1,10 @@
+_txt.setClickable(true);
+android.text.util.Linkify.addLinks(_txt, android.text.util.Linkify.ALL);
+_txt.setLinkTextColor(Color.parseColor(_textcolor));
+_txt.setLinksClickable(true);
+
+//View
+//_txt
+
+//TextColor
+//_textcolor
